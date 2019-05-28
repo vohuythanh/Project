@@ -12,7 +12,7 @@ public class Highscore {
 	ObjectOutputStream outputStream = null;
 	ObjectInputStream inputStream = null;
 
-	public HighscoreManager() {
+	public Highscore() {
 		scores = new ArrayList<Score>();
 	}
 	public ArrayList<Score> getScores() {
